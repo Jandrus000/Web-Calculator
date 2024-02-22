@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <h1>
+        Calculator
+    </h1>
+    <div id="calc-grid">
+        
+        <div id="input">
+            _
+        </div>
+        <button id="equals_button"onclick="output()">=</button>
+        <div id="numbers-grid">
+            <button id="1_button"onclick="press(1)">1</button>
+            <button id="2_button"onclick="press(2)">2</button>
+            <button id="3_button"onclick="press(3)">3</button>
+            <button id="4_button"onclick="press(4)">4</button>
+            <button id="5_button"onclick="press(5)">5</button>
+            <button id="6_button"onclick="press(6)">6</button>
+            <button id="7_button"onclick="press(7)">7</button>
+            <button id="8_button"onclick="press(8)">8</button>
+            <button id="9_button"onclick="press(9)">9</button>
+            <button id="zero_button"onclick="press(0)">0</button>
+        </div>
+        
+        <div id="operators">
+            <button id="clear_button"onclick="press('clear')">CLEAR</button>
+            <button id="plus_button"onclick="operator('+')">+</button>
+            <button id="subtract_button"onclick="operator('-')">-</button>
+            <button id="multiply_button"onclick="operator('*')">*</button>
+            <button id="divide_button"onclick="operator('/')">/</button>
+            
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>
